@@ -1,0 +1,20 @@
+//Valentines Contest-Difficulty:318
+//Problem link:https://www.codechef.com/problems/VAL114
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		if(n==121)
+		System.out.print("Likely");
+		else
+		System.out.print("Unlikely");
+	}
+}
