@@ -1,0 +1,27 @@
+//Morning Run-Difficulty:306
+//Problem link:https://www.codechef.com/problems/MORNINGRUN
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		int k = x*2;
+		int l = y*2;
+		if(k+l>=1000)
+		{
+		    System.out.println("YES");
+		}
+		else
+		{
+		    System.out.println("NO");
+		}
+
+	}
+}
