@@ -1,0 +1,34 @@
+Problem link:https://www.codechef.com/problems/CABLE?tab=statement
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+        
+        // Read the input values
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int X = sc.nextInt();
+        
+        // Calculate the volume of the cuboid
+        int volumeCuboid = A * B * C;
+        
+        // Calculate the volume of the cube
+        int volumeCube = X * X * X;
+        
+        // Compare the volumes and print the result
+        if (volumeCuboid > volumeCube) {
+            System.out.println("Cuboid");
+        } else if (volumeCube > volumeCuboid) {
+            System.out.println("Cube");
+        } else {
+            System.out.println("Equal");
+        }
+	}
+}
